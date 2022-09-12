@@ -10,8 +10,7 @@ env.hosts = ['34.224.7.193', '34.207.118.71']
 
 
 def do_pack():
-    """return the archive path if the archive has been correctly generated.
-    Otherwise, it should return None
+    """function that generates a .tgz archive
     """
     local("mkdir -p versions")
     date = datetime.strftime(datetime.now(), '%Y%m%d%H%M%S')
