@@ -18,6 +18,6 @@ def do_pack():
             return file_name
         else:
             local("mkdir versions")
-        
+
     except Exception:
         return None
