@@ -4,7 +4,7 @@ sudo apt-get -y update
 sudo apt-get -y upgrade
 sudo apt-get -y install nginx
 sudo mkdir -p /data/web_static/releases/test/ /data/web_static/shared/
-sudo touch -p /data/web_static/releases/test/index.html
+sudo touch /data/web_static/releases/test/index.html
 echo "<html>
 <head>
 </head>
